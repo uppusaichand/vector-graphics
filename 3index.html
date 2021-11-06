@@ -5,14 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/4221b1e939.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <svg width="750" height="750">
-     <a href="https://www.instagram.com/">
-        <rect width="400" height="400" fill="pink" rx="150"></rect> 
-        <circle cx="200" cy="200" r="75" fill="white"/>
-        <circle cx="325" cy="90" r="20" fill="white"/>
-    </a>
-    </svg>
+   <form style="background-color: cadetblue;margin: 20px; padding: 35px;text-align: center;text-decoration: darkgray;>
+       <fieldset>
+       <legend style="color: chocolate;padding: 15px;text-align: center;">Registration form</legend> <br>
+       <label for="username" >username</label><br>
+       <input type="text" name="username"><br>
+       <br>
+       <label for="password">password</label><br>
+        <input type="password" name="password"> <br>
+       gender <br>
+       <input type="radio"name=gender value=female>female<br>
+       <input type="radio"name=gender value=male>male<br>
+       hobbies <br>
+       <input type="checkbox" id="cricket" name="cricket" value="cricket">cricket<br>
+       <input type="checkbox" id="hockey" name="hockey" value="hockey">hockey<br>
+       <input type="checkbox" id="football" name="football" value="football">football<br>
+       <label for="email">Email</label> <br>
+       <input type="text">
+       <br>about yourself<br>
+       <input textarea rows="3" cols="30"> 
+       <br><br>
+       <button>submit</button>
+       </fieldset>
+   </form>   
 </body>
 </html>
