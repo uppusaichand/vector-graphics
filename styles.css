@@ -1,0 +1,18 @@
+.class{
+    background-color:blueviolet;
+    padding: 40px;
+    margin: 15px;
+    text-align: center;
+    border: darkmagenta;
+}
+#legend{
+    color: crimson;
+    padding: 15px;
+    text-align: center;
+    border: darksalmon;
+    border-radius: 30%;
+}
+#submit{
+    color:darkgreen;
+    padding: 10px;
+}
